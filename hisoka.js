@@ -85,7 +85,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate) => {
 
         switch(command) {
 	    case 'sc': {
-                m.reply('Script : https://github.com/DikaArdnt/Hisoka-Morou\n\n Dont Forget Give Star\n\nDonate : https://ko-fi.com/cak_haho\n\n Dont Forget Donate')
+                m.reply('Script : beli')
             }
             break
             case 'chat': {
@@ -548,7 +548,6 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'tes': case 'menu': case 'help': case '?': {
                 anu = `
 ┌──⭓ *Group Menu*
-│
 │⭔ ${prefix}linkgroup
 │⭔ ${prefix}ephemeral [option]
 │⭔ ${prefix}setpp
@@ -558,11 +557,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 │⭔ ${prefix}kick @user
 │⭔ ${prefix}promote @user
 │⭔ ${prefix}demote @user
-│
 └───────⭓
 
 ┌──⭓ *Downloader Menu*
-│
 │⭔ ${prefix}tiktoknowm [url]
 │⭔ ${prefix}tiktokwm [url]
 │⭔ ${prefix}tiktokmp3 [url]
@@ -574,20 +571,16 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 │⭔ ${prefix}twittermp3 [url]
 │⭔ ${prefix}facebook [url]
 │⭔ ${prefix}pinterestdl [url]
-│
 └───────⭓
 
 ┌──⭓ *Search Menu*
-│
 │⭔ ${prefix}pinterest [query]
 │⭔ ${prefix}wallpaper [query]
 │⭔ ${prefix}wikimedia [query]
 │⭔ ${prefix}ytsearch [query]
-│
 └───────⭓
 
 ┌──⭓ *Random Menu*
-│
 │⭔ ${prefix}porno
 │⭔ ${prefix}hentai
 │⭔ ${prefix}quotesanime
@@ -596,47 +589,41 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 │⭔ ${prefix}bucinquote
 │⭔ ${prefix}katasenja
 │⭔ ${prefix}puisi
-│
 └───────⭓
 
 ┌──⭓ *Image Menu*
-│
 │⭔ ${prefix}anime
 │⭔ ${prefix}waifu
 │⭔ ${prefix}husbu
 │⭔ ${prefix}neko
 │⭔ ${prefix}shinobu
 │⭔ ${prefix}megumin
-│
 └───────⭓
 
 ┌──⭓ *Convert Menu*
-│
 │⭔ ${prefix}toimage
 │⭔ ${prefix}sticker
 │⭔ ${prefix}tovideo
 │⭔ ${prefix}togif
 │⭔ ${prefix}tourl
-│
 └───────⭓
 
 ┌──⭓ *Main Menu*
-│
 │⭔ ${prefix}ping
 │⭔ ${prefix}owner
 │⭔ ${prefix}menu / ${prefix}help / ${prefix}?
 │⭔ ${prefix}delete
-│
 └───────⭓
 
 ┌──⭓ *Owner Menu*
-│
+│⭔ >
+│⭔ =>
+│⭔ $
 │⭔ ${prefix}chat [option]
 │⭔ ${prefix}join [link]
 │⭔ ${prefix}leave
 │⭔ ${prefix}block @user
 │⭔ ${prefix}unblock @user
-│
 └───────⭓
 `
                 let message = await prepareWAMessageMedia({ image: fs.readFileSync('./lib/hisoka.jpg') }, { upload: hisoka.waUploadToServer })
@@ -648,12 +635,12 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    url: 'https://github.com/Adiixyz'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+60199782326'
                                 }
                             }, {
                                 quickReplyButton: {
